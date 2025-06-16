@@ -1,11 +1,6 @@
-const {heroui} = require('@heroui/theme');
 /** @type {import('tailwindcss').Config} */
 export default {
-  content: [
-    "./index.html",
-    "./src/**/*.{js,ts,jsx,tsx}",
-    "./node_modules/@heroui/theme/dist/components/(button|ripple|spinner).js"
-  ],
+  content: ["./index.html", "./src/**/*.{js,ts,jsx,tsx}"],
   theme: {
     extend: {
       colors: {
@@ -160,5 +155,4 @@ export default {
       "2xl": "1536px",
     },
   },
-  plugins: [heroui()],
 };
