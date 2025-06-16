@@ -6,7 +6,7 @@
 
 @layer base {
   body {
-    @apply text-base text-gray-800 font-normal;
+    @apply text-base text-default font-normal font-sans;
   }
 }
 
@@ -14,6 +14,6 @@
 
 @layer utilities {
   .container {
-    @apply max-w-7xl w-full px-5 mx-auto;
+    @apply max-w-7xl w-full px-3 mx-auto xs:px-3.5 sm:px-4 md:px-5;
   }
 }
