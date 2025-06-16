@@ -10,8 +10,12 @@
     "preview": "vite preview"
   },
   "dependencies": {
-    "react": "^18.3.1",
-    "react-dom": "^18.3.1",
+    "@heroui/button": "^2.2.21",
+    "@heroui/system": "^2.4.17",
+    "@heroui/theme": "^2.4.17",
+    "framer-motion": "^12.18.1",
+    "react": "^19.1.0",
+    "react-dom": "^19.1.0",
     "react-router-dom": "^6.26.2"
   },
   "devDependencies": {
