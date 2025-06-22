@@ -8,6 +8,19 @@
   body {
     @apply bg-neutral-50 text-base text-default font-normal font-sans;
   }
+
+  h1,
+  h2 {
+    @apply font-semibold leading-normal;
+  }
+
+  h1 {
+    @apply text-2xl sm:text-3xl md:text-[32px];
+  }
+
+  h2 {
+    @apply text-2xl sm:text-3xl;
+  }
 }
 
 /* --- Components --- */
