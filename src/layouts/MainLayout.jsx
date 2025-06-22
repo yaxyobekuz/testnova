@@ -1,5 +1,3 @@
-import React from "react";
-
 // Router
 import { Outlet } from "react-router-dom";
 
