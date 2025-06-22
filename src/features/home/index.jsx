@@ -1,5 +1,6 @@
 // Components
 import Hero from "./components/Hero";
+import Categories from "./components/Categories";
 import Header from "../../components/layout/Header";
 
 const HomeFeature = () => {
@@ -7,6 +8,7 @@ const HomeFeature = () => {
     <div>
       <Header />
       <Hero />
+      <Categories />
     </div>
   );
 };
