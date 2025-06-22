@@ -6,6 +6,7 @@ import {
 } from "react-router-dom";
 
 // Pages
+import Page404 from "./pages/Page404";
 import HomePage from "./pages/HomePage";
 
 // Layouts
@@ -16,6 +17,7 @@ const App = () => {
     createRoutesFromElements(
       <Route path="/" element={<MainLayout />}>
         <Route index element={<HomePage />} />
+        <Route path="*" element={<Page404 />} />
       </Route>
     )
   );

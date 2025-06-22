@@ -17,7 +17,7 @@ const Hero = () => {
         <div className="space-y-5">
           {/* Title */}
           <h1 className="text-[32px] leading-normal font-semibold">
-            TestNova bilan bilimingizni sinash <br /> orqali uni rivojlantiring!
+            TestNova bilan bilimingizni sinash <br /> orqali o'zingizni rivojlantiring!
           </h1>
 
           {/* Description */}
