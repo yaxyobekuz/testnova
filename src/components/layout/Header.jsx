@@ -5,7 +5,7 @@ import Logo from "../common/Logo";
 
 const Header = () => {
   return (
-    <header className="py-5">
+    <header className="flex items-center h-[86px]">
       <div className="container">
         <div className="flex items-center justify-between">
           {/* Left */}
@@ -60,17 +60,11 @@ const Header = () => {
 
           {/* Auth links */}
           <div className="flex items-center gap-3.5">
-            <Link
-              to="/hisob/royxatdan-otish"
-              className="bg-white px-5 py-2.5 border rounded-2xl transition-colors duration-200 hover:bg-primary-500/5"
-            >
+            <Link to="/hisob/royxatdan-otish" className="btn-outline">
               Ro'yxatdan o'tish
             </Link>
 
-            <Link
-              to="/hisob/kirish"
-              className="bg-primary-500 px-5 py-2.5 text-white rounded-2xl transition-colors duration-200 hover:bg-primary-700"
-            >
+            <Link to="/hisob/kirish" className="btn-primary">
               Kirish
             </Link>
           </div>
