@@ -12,11 +12,10 @@ const MainLayout = () => {
 
   return (
     <div className="flex flex-col min-h-screen">
-      {/* main */}
-      <main className="">
-        <Outlet />
-      </main>
+      {/* Main */}
+      <Outlet />
 
+      {/* Scroll to top button */}
       <ScrollToTopButton />
     </div>
   );

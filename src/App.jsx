@@ -8,6 +8,7 @@ import {
 // Pages
 import Page404 from "./pages/Page404";
 import HomePage from "./pages/HomePage";
+import Category from "./pages/Category";
 import Categories from "./pages/Categories";
 
 // Layouts
@@ -20,6 +21,7 @@ const App = () => {
         <Route index element={<HomePage />} />
         <Route path="*" element={<Page404 />} />
         <Route path="bolimlar" element={<Categories />} />
+        <Route path="bolimlar/:categoryLink" element={<Category />} />
       </Route>
     )
   );
