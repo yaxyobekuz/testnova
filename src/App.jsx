@@ -8,6 +8,7 @@ import {
 // Pages
 import Page404 from "./pages/Page404";
 import HomePage from "./pages/HomePage";
+import Categories from "./pages/Categories";
 
 // Layouts
 import MainLayout from "./layouts/MainLayout";
@@ -18,6 +19,7 @@ const App = () => {
       <Route path="/" element={<MainLayout />}>
         <Route index element={<HomePage />} />
         <Route path="*" element={<Page404 />} />
+        <Route path="bolimlar" element={<Categories />} />
       </Route>
     )
   );
