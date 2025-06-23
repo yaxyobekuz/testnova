@@ -6,6 +6,7 @@ import {
 } from "react-router-dom";
 
 // Pages
+import Test from "./pages/Test";
 import Page404 from "./pages/Page404";
 import HomePage from "./pages/HomePage";
 import Category from "./pages/Category";
@@ -20,6 +21,7 @@ const App = () => {
       <Route path="/" element={<MainLayout />}>
         <Route index element={<HomePage />} />
         <Route path="*" element={<Page404 />} />
+        <Route path="test/:testId" element={<Test />} />
         <Route path="bolimlar" element={<Categories />} />
         <Route path="bolimlar/:categoryLink" element={<Category />} />
       </Route>
