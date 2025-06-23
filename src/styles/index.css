@@ -39,6 +39,11 @@
   .btn-outline {
     @apply flex items-center gap-3.5 h-11 bg-white px-5 border rounded-2xl transition-colors duration-200 hover:bg-primary-500/5;
   }
+
+  .test-item {
+    @apply relative bg-white p-8 rounded-2xl border-2 border-white transition-[border] duration-300 hover:border-primary-500 focus-within:border-primary-500;
+    box-shadow: 0 0 10px 0px rgba(0, 0, 0, 0.03);
+  }
 }
 
 /* --- Utilities --- */
