@@ -8,8 +8,8 @@ const HomeFeature = () => {
   return (
     <div>
       <Header />
-      {/* <Hero />
-      <Categories />
+      <Hero />
+      {/* <Categories />
       <Footer /> */}
     </div>
   );
