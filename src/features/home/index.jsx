@@ -8,9 +8,9 @@ const HomeFeature = () => {
   return (
     <div>
       <Header />
-      <Hero />
+      {/* <Hero />
       <Categories />
-      <Footer />
+      <Footer /> */}
     </div>
   );
 };
