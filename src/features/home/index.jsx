@@ -9,8 +9,8 @@ const HomeFeature = () => {
     <div>
       <Header />
       <Hero />
-      {/* <Categories />
-      <Footer /> */}
+      <Categories />
+      {/*<Footer /> */}
     </div>
   );
 };
