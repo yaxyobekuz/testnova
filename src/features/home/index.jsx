@@ -10,7 +10,7 @@ const HomeFeature = () => {
       <Header />
       <Hero />
       <Categories />
-      {/*<Footer /> */}
+      <Footer />
     </div>
   );
 };

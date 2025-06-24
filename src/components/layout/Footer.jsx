@@ -7,18 +7,18 @@ import Icon from "../common/Icon";
 // Data
 import social from "../../data/social";
 
-const Header = () => {
+const Footer = () => {
   return (
-    <footer className="flex items-center py-20">
+    <footer className="flex items-center py-16 md:py-20">
       <div className="container">
-        <div className="flex items-center justify-between">
+        <div className="flex flex-col items-center justify-between gap-6 md:flex-row">
           {/* Left */}
-          <div className="flex items-center gap-10">
+          <div className="flex flex-col items-center gap-6 md:gap-10 md:flex-row">
             <Logo />
 
             {/* Nav */}
             <nav>
-              <ul className="flex items-center gap-5">
+              <ul className="flex flex-col items-center gap-5 md:flex-row">
                 {/* Home */}
                 <li>
                   <Link
@@ -84,4 +84,4 @@ const Header = () => {
   );
 };
 
-export default Header;
+export default Footer;
