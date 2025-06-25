@@ -6,14 +6,14 @@ import Footer from "../../components/layout/Footer";
 
 const CategoriesFeature = () => {
   return (
-    <div>
+    <>
       <Header />
       <main>
         <Info />
         <Tests />
       </main>
       <Footer />
-    </div>
+    </>
   );
 };
 
