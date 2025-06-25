@@ -41,7 +41,7 @@
   }
 
   .test-item {
-    @apply relative bg-white p-8 rounded-2xl border-2 border-white transition-[border] duration-300 hover:border-primary-500 focus-within:border-primary-500;
+    @apply relative bg-white p-5 rounded-2xl border-2 border-white transition-[border] duration-300 hover:border-primary-500 focus-within:border-primary-500 md:p-8;
     box-shadow: 0 0 10px 0px rgba(0, 0, 0, 0.03);
   }
 }

@@ -120,7 +120,7 @@ const Header = () => {
 const MobileMenu = ({ isOpen, onClose }) => {
   return (
     <div
-      className={`flex flex-col fixed inset-0 size-full bg-white origin-top-right transition-transform duration-300 ${
+      className={`flex flex-col fixed inset-0 z-50 size-full bg-white origin-top-right transition-transform duration-300 ${
         isOpen ? "translate-x-0 scale-100" : "translate-x-full scale-0"
       }`}
     >
