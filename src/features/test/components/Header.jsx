@@ -36,14 +36,14 @@ const Header = () => {
       <Link
         to={-1}
         translate="no"
-        className="btn-outline justify-between gap-0 w-44"
+        className="btn-outline gap-0 w-[90px] sm:justify-between sm:w-44"
       >
         <Icon
           alt="Chap tomon"
           src={arrowRightIcon}
           className="size-6 rotate-180"
         />
-        <span>Ortga qaytish</span>
+        <span className="hidden sm:inline">Ortga qaytish</span>
       </Link>
 
       {/* Logo */}
@@ -52,9 +52,9 @@ const Header = () => {
       {/* Time */}
       <div
         translate="no"
-        className="btn-outline justify-center gap-2 w-44 hover:bg-white"
+        className="btn-outline justify-center gap-2 w-[90px] hover:bg-white sm:w-44"
       >
-        <b className="font-medium">Vaqt:</b>
+        <b className="hidden font-medium sm:inline">Vaqt:</b>
         <span className="inline-block w-14">{formatTime(elapsedTime)}</span>
       </div>
     </header>

@@ -6,10 +6,10 @@ import patternImage from "../../../assets/backgrounds/education-pattern.webp";
 
 const Main = () => {
   return (
-    <div className="pt-10 pb-20">
+    <div className="pt-8 pb-20 md:pt-10">
       <div className="container">
         {/* Question container */}
-        <div className="relative overflow-hidden max-w-2xl w-full bg-primary-50 p-8 mx-auto mb-8 border-2 border-primary-400 rounded-2xl text-center text-xl font-medium animate-slide-up">
+        <div className="relative overflow-hidden max-w-2xl w-full bg-primary-50 py-8 px-5 mx-auto mb-8 border-2 border-primary-400 rounded-2xl text-center text-lg font-medium animate-slide-up sm:text-xl sm:px-8">
           {/* Question  */}
           <span className="relative z-10">
             Filterning qaysi hossasi yordamida berilgan elementga hiralik
@@ -36,13 +36,13 @@ const Main = () => {
         {/* Answers */}
         <div className="space-y-3.5">
           {Array.from({ length: 4 }, (_, index) => (
-            <div
+            <button
               key={index}
               style={{ animationDelay: `${(index + 1) * 0.15}s` }}
-              className="flex items-center justify-center max-w-2xl w-full h-14 bg-white px-4 mx-auto border-2 border-transparent rounded-2xl text-center font-medium cursor-pointer animate-slide-up transition-colors duration-300 hover:bg-primary-50 hover:border-primary-400"
+              className="flex items-center justify-center max-w-2xl w-full h-14 bg-white px-4 mx-auto border-2 border-transparent rounded-2xl text-center font-medium cursor-pointer animate-slide-up outline-none transition-colors duration-300 hover:bg-primary-50 hover:border-primary-400 focus:bg-primary-50 focus:border-primary-400"
             >
               {`Savol javobi ${index + 1}`}
-            </div>
+            </button>
           ))}
         </div>
       </div>
