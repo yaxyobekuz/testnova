@@ -7,5 +7,10 @@ import "./styles/index.css";
 // Components
 import App from "./App.jsx";
 
+// Redux
+import store from "./store";
+import { Provider } from "react-redux";
+
 // Render the project
-createRoot(document.getElementById("root")).render(<App />);
+const elRoot = document.getElementById("root");
+createRoot(elRoot).render(<Provider store={store} children={<App />} />);
